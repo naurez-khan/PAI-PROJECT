@@ -1,9 +1,9 @@
 .venv/
 .env
+.vscode/
 __pycache__/
 .pytest_cache/
 .pytest_tmp/
-data/
-*.db
+data/raw/
 *.db-shm
 *.db-wal
