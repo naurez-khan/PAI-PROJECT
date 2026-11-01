@@ -1,0 +1,7 @@
+pandas>=2.2,<3
+pydantic>=2.7,<3
+requests>=2.32,<3
+python-dotenv>=1,<2
+matplotlib>=3.8,<4
+streamlit>=1.38,<2
+pytest>=8,<10
