@@ -1,6 +1,6 @@
-# Day 6: Structured exploratory data analysis
+# Stage 6: Structured Data Audit & Statistical Analysis
 
-Stage 1, day 6/7. Allocate 3-4 focused hours.
+Pipeline Stage 6.
 
 ## Objective
 
@@ -8,14 +8,14 @@ Query SQLite; generate statistics, correlations, charts, and a question-driven r
 
 ## Prerequisites
 
-Complete the earlier days in order. Read `common.py` and the helpers used by `stage1.py:day06`. On Day 1 follow the README setup first.
+Complete Stage 5 first. Read `common.py` and the helpers used by `stage1.py:data_audit`.
 
 ## Run
 
 From the project root:
 
 ```powershell
-.\.venv\Scripts\python.exe days/day06.py
+.\.venv\Scripts\python.exe pipeline/06_data_audit.py
 ```
 
 ## Today's implementation

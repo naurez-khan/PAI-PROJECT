@@ -97,7 +97,7 @@ st.title("Stage 1: Python Dataset ETL and Analysis")
 st.markdown('<p class="caption-text">API extraction, validation, database loading and dataset verification</p>', unsafe_allow_html=True)
 
 if not (DATA / "code_similarity.db").exists():
-    st.info("Run Days 1-6 from the README to generate your dataset and reports.")
+    st.info("Run the pipeline stages from the README to generate your dataset and reports.")
 else:
     with sqlite3.connect(f"file:{(DATA / 'code_similarity.db').as_posix()}?mode=ro", uri=True) as conn:
         counts = pd.read_sql_query("SELECT COUNT(*) AS solutions, COUNT(DISTINCT problem_id) AS problems FROM solutions", conn).iloc[0]

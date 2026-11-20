@@ -1,6 +1,6 @@
-# Day 4: Static feature extraction
+# Stage 4: Static Feature Extraction
 
-Stage 1, day 4/7. Allocate 3-4 focused hours.
+Pipeline Stage 4.
 
 ## Objective
 
@@ -8,14 +8,14 @@ Extract lines, tokens, AST node counts and fingerprints; review common.py pair f
 
 ## Prerequisites
 
-Complete the earlier days in order. Read `common.py` and the helpers used by `stage1.py:day04`. On Day 1 follow the README setup first.
+Complete Stage 3 first. Read `common.py` and the helpers used by `stage1.py:extract_features`.
 
 ## Run
 
 From the project root:
 
 ```powershell
-.\.venv\Scripts\python.exe days/day04.py
+.\.venv\Scripts\python.exe pipeline/04_feature_extraction.py
 ```
 
 ## Today's implementation

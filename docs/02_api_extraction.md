@@ -1,6 +1,6 @@
-# Day 2: Authenticated API extraction
+# Stage 2: Authenticated API Extraction
 
-Stage 1, day 2/7. Allocate 3-4 focused hours.
+Pipeline Stage 2.
 
 ## Objective
 
@@ -8,14 +8,14 @@ Use a Bearer token, discover config/split availability, paginate in batches of a
 
 ## Prerequisites
 
-Complete the earlier days in order. Read `common.py` and the helpers used by `stage1.py:day02`. On Day 1 follow the README setup first.
+Complete Stage 1 first. Read `common.py` and the helpers used by `stage1.py:extract_data`.
 
 ## Run
 
 From the project root:
 
 ```powershell
-.\.venv\Scripts\python.exe days/day02.py
+.\.venv\Scripts\python.exe pipeline/02_api_extraction.py
 ```
 
 ## Today's implementation

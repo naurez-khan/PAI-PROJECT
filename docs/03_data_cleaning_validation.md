@@ -1,6 +1,6 @@
-# Day 3: pandas cleaning and Pydantic validation
+# Stage 3: Data Cleaning, Pydantic Validation & Quarantine
 
-Stage 1, day 3/7. Allocate 3-4 focused hours.
+Pipeline Stage 3.
 
 ## Objective
 
@@ -8,14 +8,14 @@ Validate API records; decode solution arrays; normalize line endings; parse Pyth
 
 ## Prerequisites
 
-Complete the earlier days in order. Read `common.py` and the helpers used by `stage1.py:day03`. On Day 1 follow the README setup first.
+Complete Stage 2 first. Read `common.py` and the helpers used by `stage1.py:clean_and_validate`.
 
 ## Run
 
 From the project root:
 
 ```powershell
-.\.venv\Scripts\python.exe days/day03.py
+.\.venv\Scripts\python.exe pipeline/03_data_cleaning_validation.py
 ```
 
 ## Today's implementation

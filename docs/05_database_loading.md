@@ -1,6 +1,6 @@
-# Day 5: SQLite loading and reconciliation
+# Stage 5: SQLite Loading and Reconciliation
 
-Stage 1, day 5/7. Allocate 3-4 focused hours.
+Pipeline Stage 5.
 
 ## Objective
 
@@ -8,14 +8,14 @@ Create constrained tables; load one active snapshot transactionally; retain hist
 
 ## Prerequisites
 
-Complete the earlier days in order. Read `common.py` and the helpers used by `stage1.py:day05`. On Day 1 follow the README setup first.
+Complete Stage 4 first. Read `common.py` and the helpers used by `stage1.py:load_database`.
 
 ## Run
 
 From the project root:
 
 ```powershell
-.\.venv\Scripts\python.exe days/day05.py
+.\.venv\Scripts\python.exe pipeline/05_database_loading.py
 ```
 
 ## Today's implementation

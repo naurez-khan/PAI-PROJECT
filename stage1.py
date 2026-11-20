@@ -259,3 +259,14 @@ def day07():
     save_json(REPORTS / "stage1_gate.json", {"passed": True, "eligible_problems": eligible,
                                              "rows": len(frame)})
     print("Stage 1 gate passed. Freeze this snapshot before Stage 2.")
+
+
+# Functional stage aliases for professional pipeline execution
+setup_environment = day01
+extract_data = day02
+clean_and_validate = day03
+extract_features = day04
+load_database = day05
+data_audit = day06
+acceptance_gate = day07
+

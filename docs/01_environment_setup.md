@@ -1,21 +1,21 @@
-# Day 1: Environment and project contract
+# Stage 1: Environment and Project Contract
 
-Stage 1, day 1/7. Allocate 3-4 focused hours.
+Pipeline Stage 1.
 
 ## Objective
 
-Create a fresh virtual environment; install Stage 1/2 dependencies; configure a read token; run folder setup.
+Create a fresh virtual environment; install dependencies; configure a read token; verify folder setup.
 
 ## Prerequisites
 
-Complete the earlier days in order. Read `common.py` and the helpers used by `stage1.py:day01`. On Day 1 follow the README setup first.
+Read `common.py` and the helpers used by `stage1.py:setup_environment`. Follow the README setup first.
 
 ## Run
 
 From the project root:
 
 ```powershell
-.\.venv\Scripts\python.exe days/day01.py
+.\.venv\Scripts\python.exe pipeline/01_environment_setup.py
 ```
 
 ## Today's implementation

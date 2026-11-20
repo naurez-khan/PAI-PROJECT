@@ -1,6 +1,6 @@
-# Day 7: Stage 1 acceptance and demonstration
+# Stage 7: Stage 1 Acceptance Gate & Verification
 
-Stage 1, day 7/7. Allocate 3-4 focused hours.
+Pipeline Stage 7.
 
 ## Objective
 
@@ -8,14 +8,14 @@ Run the quality gate and automated tests; demonstrate API-to-database-to-EDA flo
 
 ## Prerequisites
 
-Complete the earlier days in order. Read `common.py` and the helpers used by `stage1.py:day07`. On Day 1 follow the README setup first.
+Complete Stage 6 first. Read `common.py` and the helpers used by `stage1.py:acceptance_gate`.
 
 ## Run
 
 From the project root:
 
 ```powershell
-.\.venv\Scripts\python.exe days/day07.py
+.\.venv\Scripts\python.exe pipeline/07_acceptance_gate.py
 ```
 
 ## Today's implementation
